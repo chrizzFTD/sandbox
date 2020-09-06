@@ -1,0 +1,2 @@
+docker run -it --rm -p 5656:5656 -p 8888:8888 --name=edgedb-server -v edgedb_data:/var/lib/edgedb/data edgedb/edgedb
+
